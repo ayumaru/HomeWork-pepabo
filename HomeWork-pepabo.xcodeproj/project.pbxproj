@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14A53F201E3CA057004DEDB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A53F1F1E3CA057004DEDB2 /* AppDelegate.swift */; };
+		14A53F221E3CA057004DEDB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A53F211E3CA057004DEDB2 /* ViewController.swift */; };
+		14A53F251E3CA057004DEDB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A53F231E3CA057004DEDB2 /* Main.storyboard */; };
+		14A53F271E3CA057004DEDB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A53F261E3CA057004DEDB2 /* Assets.xcassets */; };
+		14A53F2A1E3CA057004DEDB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A53F281E3CA057004DEDB2 /* LaunchScreen.storyboard */; };
+		14A53F351E3CA057004DEDB2 /* HomeWork_pepaboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A53F341E3CA057004DEDB2 /* HomeWork_pepaboTests.swift */; };
+		14A53F401E3CA057004DEDB2 /* HomeWork_pepaboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A53F3F1E3CA057004DEDB2 /* HomeWork_pepaboUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14A53F311E3CA057004DEDB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14A53F141E3CA057004DEDB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14A53F1B1E3CA057004DEDB2;
+			remoteInfo = "HomeWork-pepabo";
+		};
+		14A53F3C1E3CA057004DEDB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14A53F141E3CA057004DEDB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14A53F1B1E3CA057004DEDB2;
+			remoteInfo = "HomeWork-pepabo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14A53F1C1E3CA057004DEDB2 /* HomeWork-pepabo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeWork-pepabo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A53F1F1E3CA057004DEDB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14A53F211E3CA057004DEDB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14A53F241E3CA057004DEDB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14A53F261E3CA057004DEDB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14A53F291E3CA057004DEDB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14A53F2B1E3CA057004DEDB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14A53F301E3CA057004DEDB2 /* HomeWork-pepaboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HomeWork-pepaboTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A53F341E3CA057004DEDB2 /* HomeWork_pepaboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWork_pepaboTests.swift; sourceTree = "<group>"; };
+		14A53F361E3CA057004DEDB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14A53F3B1E3CA057004DEDB2 /* HomeWork-pepaboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HomeWork-pepaboUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A53F3F1E3CA057004DEDB2 /* HomeWork_pepaboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWork_pepaboUITests.swift; sourceTree = "<group>"; };
+		14A53F411E3CA057004DEDB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14A53F191E3CA057004DEDB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A53F2D1E3CA057004DEDB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A53F381E3CA057004DEDB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14A53F131E3CA057004DEDB2 = {
+			isa = PBXGroup;
+			children = (
+				14A53F1E1E3CA057004DEDB2 /* HomeWork-pepabo */,
+				14A53F331E3CA057004DEDB2 /* HomeWork-pepaboTests */,
+				14A53F3E1E3CA057004DEDB2 /* HomeWork-pepaboUITests */,
+				14A53F1D1E3CA057004DEDB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14A53F1D1E3CA057004DEDB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14A53F1C1E3CA057004DEDB2 /* HomeWork-pepabo.app */,
+				14A53F301E3CA057004DEDB2 /* HomeWork-pepaboTests.xctest */,
+				14A53F3B1E3CA057004DEDB2 /* HomeWork-pepaboUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14A53F1E1E3CA057004DEDB2 /* HomeWork-pepabo */ = {
+			isa = PBXGroup;
+			children = (
+				14A53F1F1E3CA057004DEDB2 /* AppDelegate.swift */,
+				14A53F211E3CA057004DEDB2 /* ViewController.swift */,
+				14A53F231E3CA057004DEDB2 /* Main.storyboard */,
+				14A53F261E3CA057004DEDB2 /* Assets.xcassets */,
+				14A53F281E3CA057004DEDB2 /* LaunchScreen.storyboard */,
+				14A53F2B1E3CA057004DEDB2 /* Info.plist */,
+			);
+			path = "HomeWork-pepabo";
+			sourceTree = "<group>";
+		};
+		14A53F331E3CA057004DEDB2 /* HomeWork-pepaboTests */ = {
+			isa = PBXGroup;
+			children = (
+				14A53F341E3CA057004DEDB2 /* HomeWork_pepaboTests.swift */,
+				14A53F361E3CA057004DEDB2 /* Info.plist */,
+			);
+			path = "HomeWork-pepaboTests";
+			sourceTree = "<group>";
+		};
+		14A53F3E1E3CA057004DEDB2 /* HomeWork-pepaboUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14A53F3F1E3CA057004DEDB2 /* HomeWork_pepaboUITests.swift */,
+				14A53F411E3CA057004DEDB2 /* Info.plist */,
+			);
+			path = "HomeWork-pepaboUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14A53F1B1E3CA057004DEDB2 /* HomeWork-pepabo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14A53F441E3CA057004DEDB2 /* Build configuration list for PBXNativeTarget "HomeWork-pepabo" */;
+			buildPhases = (
+				14A53F181E3CA057004DEDB2 /* Sources */,
+				14A53F191E3CA057004DEDB2 /* Frameworks */,
+				14A53F1A1E3CA057004DEDB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HomeWork-pepabo";
+			productName = "HomeWork-pepabo";
+			productReference = 14A53F1C1E3CA057004DEDB2 /* HomeWork-pepabo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14A53F2F1E3CA057004DEDB2 /* HomeWork-pepaboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14A53F471E3CA057004DEDB2 /* Build configuration list for PBXNativeTarget "HomeWork-pepaboTests" */;
+			buildPhases = (
+				14A53F2C1E3CA057004DEDB2 /* Sources */,
+				14A53F2D1E3CA057004DEDB2 /* Frameworks */,
+				14A53F2E1E3CA057004DEDB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14A53F321E3CA057004DEDB2 /* PBXTargetDependency */,
+			);
+			name = "HomeWork-pepaboTests";
+			productName = "HomeWork-pepaboTests";
+			productReference = 14A53F301E3CA057004DEDB2 /* HomeWork-pepaboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14A53F3A1E3CA057004DEDB2 /* HomeWork-pepaboUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14A53F4A1E3CA057004DEDB2 /* Build configuration list for PBXNativeTarget "HomeWork-pepaboUITests" */;
+			buildPhases = (
+				14A53F371E3CA057004DEDB2 /* Sources */,
+				14A53F381E3CA057004DEDB2 /* Frameworks */,
+				14A53F391E3CA057004DEDB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14A53F3D1E3CA057004DEDB2 /* PBXTargetDependency */,
+			);
+			name = "HomeWork-pepaboUITests";
+			productName = "HomeWork-pepaboUITests";
+			productReference = 14A53F3B1E3CA057004DEDB2 /* HomeWork-pepaboUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14A53F141E3CA057004DEDB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "西村歩夢";
+				TargetAttributes = {
+					14A53F1B1E3CA057004DEDB2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LG6RQ47NKS;
+						ProvisioningStyle = Automatic;
+					};
+					14A53F2F1E3CA057004DEDB2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LG6RQ47NKS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14A53F1B1E3CA057004DEDB2;
+					};
+					14A53F3A1E3CA057004DEDB2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LG6RQ47NKS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14A53F1B1E3CA057004DEDB2;
+					};
+				};
+			};
+			buildConfigurationList = 14A53F171E3CA057004DEDB2 /* Build configuration list for PBXProject "HomeWork-pepabo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14A53F131E3CA057004DEDB2;
+			productRefGroup = 14A53F1D1E3CA057004DEDB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14A53F1B1E3CA057004DEDB2 /* HomeWork-pepabo */,
+				14A53F2F1E3CA057004DEDB2 /* HomeWork-pepaboTests */,
+				14A53F3A1E3CA057004DEDB2 /* HomeWork-pepaboUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14A53F1A1E3CA057004DEDB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A53F2A1E3CA057004DEDB2 /* LaunchScreen.storyboard in Resources */,
+				14A53F271E3CA057004DEDB2 /* Assets.xcassets in Resources */,
+				14A53F251E3CA057004DEDB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A53F2E1E3CA057004DEDB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A53F391E3CA057004DEDB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14A53F181E3CA057004DEDB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A53F221E3CA057004DEDB2 /* ViewController.swift in Sources */,
+				14A53F201E3CA057004DEDB2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A53F2C1E3CA057004DEDB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A53F351E3CA057004DEDB2 /* HomeWork_pepaboTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14A53F371E3CA057004DEDB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A53F401E3CA057004DEDB2 /* HomeWork_pepaboUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14A53F321E3CA057004DEDB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14A53F1B1E3CA057004DEDB2 /* HomeWork-pepabo */;
+			targetProxy = 14A53F311E3CA057004DEDB2 /* PBXContainerItemProxy */;
+		};
+		14A53F3D1E3CA057004DEDB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14A53F1B1E3CA057004DEDB2 /* HomeWork-pepabo */;
+			targetProxy = 14A53F3C1E3CA057004DEDB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14A53F231E3CA057004DEDB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14A53F241E3CA057004DEDB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14A53F281E3CA057004DEDB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14A53F291E3CA057004DEDB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14A53F421E3CA057004DEDB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14A53F431E3CA057004DEDB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14A53F451E3CA057004DEDB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LG6RQ47NKS;
+				INFOPLIST_FILE = "HomeWork-pepabo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ayumu.HomeWork-pepabo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		14A53F461E3CA057004DEDB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LG6RQ47NKS;
+				INFOPLIST_FILE = "HomeWork-pepabo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ayumu.HomeWork-pepabo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		14A53F481E3CA057004DEDB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LG6RQ47NKS;
+				INFOPLIST_FILE = "HomeWork-pepaboTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ayumu.HomeWork-pepaboTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeWork-pepabo.app/HomeWork-pepabo";
+			};
+			name = Debug;
+		};
+		14A53F491E3CA057004DEDB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LG6RQ47NKS;
+				INFOPLIST_FILE = "HomeWork-pepaboTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ayumu.HomeWork-pepaboTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeWork-pepabo.app/HomeWork-pepabo";
+			};
+			name = Release;
+		};
+		14A53F4B1E3CA057004DEDB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LG6RQ47NKS;
+				INFOPLIST_FILE = "HomeWork-pepaboUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ayumu.HomeWork-pepaboUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "HomeWork-pepabo";
+			};
+			name = Debug;
+		};
+		14A53F4C1E3CA057004DEDB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LG6RQ47NKS;
+				INFOPLIST_FILE = "HomeWork-pepaboUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ayumu.HomeWork-pepaboUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "HomeWork-pepabo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14A53F171E3CA057004DEDB2 /* Build configuration list for PBXProject "HomeWork-pepabo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A53F421E3CA057004DEDB2 /* Debug */,
+				14A53F431E3CA057004DEDB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14A53F441E3CA057004DEDB2 /* Build configuration list for PBXNativeTarget "HomeWork-pepabo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A53F451E3CA057004DEDB2 /* Debug */,
+				14A53F461E3CA057004DEDB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14A53F471E3CA057004DEDB2 /* Build configuration list for PBXNativeTarget "HomeWork-pepaboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A53F481E3CA057004DEDB2 /* Debug */,
+				14A53F491E3CA057004DEDB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14A53F4A1E3CA057004DEDB2 /* Build configuration list for PBXNativeTarget "HomeWork-pepaboUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A53F4B1E3CA057004DEDB2 /* Debug */,
+				14A53F4C1E3CA057004DEDB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14A53F141E3CA057004DEDB2 /* Project object */;
+}
